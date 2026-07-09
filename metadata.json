@@ -1,0 +1,6 @@
+{
+  "name": "منبر الصيحة الأدبي",
+  "description": "منصة تفاعلية معاصرة للأدب، الشعر، النثر، النقد الأدبي المدعوم بالذكاء الاصطناعي، والأمسيات الافتراضية المرئية.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

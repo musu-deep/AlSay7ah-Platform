@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&family=Amiri:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Tajawal", "Amiri", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Amiri", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom styles for the AlSay7ah Literary Platform */
+html {
+  scroll-behavior: smooth;
+  direction: rtl;
+}
+
+body {
+  background: radial-gradient(circle at top, #141f36 0%, #0a0f1d 100%);
+  color: #f3f4f6;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+}
+
+/* Advanced Glassmorphism Utilities to match Editorial Aesthetic */
+.glass-panel {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0.03) 100%);
+  backdrop-filter: blur(20px) saturate(130%);
+  -webkit-backdrop-filter: blur(20px) saturate(130%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.5);
+}
+
+.glass-panel-hover:hover {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.05) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 15px 45px -5px rgba(0, 0, 0, 0.6);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card-gold {
+  background: linear-gradient(135deg, rgba(52, 211, 153, 0.08) 0%, rgba(37, 99, 235, 0.05) 100%);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(52, 211, 153, 0.25);
+  box-shadow: 0 10px 40px -10px rgba(52, 211, 153, 0.1);
+}
+
+.glass-card-neon {
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.08) 0%, rgba(255, 255, 255, 0.03) 100%);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(37, 99, 235, 0.25);
+  box-shadow: 0 10px 40px -10px rgba(37, 99, 235, 0.15);
+}
+
+.glass-input {
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.glass-input:focus {
+  background: rgba(0, 0, 0, 0.55);
+  border-color: rgba(59, 130, 246, 0.5);
+  outline: none;
+  box-shadow: 0 0 12px rgba(59, 130, 246, 0.2);
+}
+
+/* Scrollbar customizations */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #060814;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(52, 211, 153, 0.3);
+}
+
+/* Text selections */
+::selection {
+  background: rgba(37, 99, 235, 0.3);
+  color: #ffffff;
+}
