@@ -293,7 +293,7 @@ export default function App() {
       <footer className="border-t border-white/5 py-8 bg-slate-950/60 mt-12 text-center text-xs text-gray-500">
         <div className="max-w-7xl mx-auto px-4 space-y-3">
           <p className="font-serif text-gray-400">
-            « إِذَا الشَّعْبُ يَوْمَاً أَرَادَ الْحَيَاةَ ... فَلابُدَّ أَنْ يَسْتَجِيبَ القَدَرُ » — أبو القاسم الشابي
+            «ومن يتهيب صعود الجبال - يعش أبد الدهر بين الحفر » — أبو القاسم الشابي
           </p>
           <div className="flex justify-center items-center gap-4 text-[10px] text-gray-600 font-sans">
             <span>حقوق النشر © {new Date().getFullYear()} منبر الصيحة الأدبي الثقافي</span>
